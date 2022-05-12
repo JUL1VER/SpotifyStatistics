@@ -1,13 +1,8 @@
 import {Client, TrackHandler, PlaylistHandler} from 'spotify-sdk';
-import {useEffect} from 'react';
-import { contentFetching } from '../../store/actions';
-import { useDispatch } from 'react-redux';
 
 import './loginPage.css';
 
 const LoginPage = () => {
-
-    const dispatch = useDispatch();
     let client = Client.instance;
 
     client.settings = {
@@ -17,14 +12,6 @@ const LoginPage = () => {
         redirect_uri: 'http://localhost:3000/main'
     };
 
-    let track = new TrackHandler();
-
-    // useEffect(() => {
-    //     client.login().then((url) => {
-    //         window.location.href = url;
-    //     });
-    // })
-
     const log = () => {
         client.login().then((url) => {
         window.location.href = url;
@@ -32,16 +19,6 @@ const LoginPage = () => {
         console.log(accessToken.hash);
         });
     }
-  
-    useEffect(() => {
-        let hueta = new URL(document.location.href);
-        let token = hueta.hash.slice(hueta.hash.indexOf('=') + 1, hueta.hash.indexOf('&'));
-        client.token = token;
-        track.search('Archangel', {limit: 5})
-            .then((trackCollection) => {
-                dispatch(contentFetching(trackCollection));
-            });
-    })
 
     return (
         <>
