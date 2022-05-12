@@ -32,17 +32,17 @@
 .menu:hover {
     outline-color: rgba(71, 126, 232, 0);
     outline-offset: 70px;
+}
+
+.menu:hover a{
     color: #2ebd59;
     font-weight: 700;
     font-size: 60px;
     letter-spacing: 5px;
 }
 
-.menu:hover a{
-    color: #2ebd59;
-}
-
 .link {
+    transition: all 600ms;
     color: #202125;
     text-decoration: none; 
 }
