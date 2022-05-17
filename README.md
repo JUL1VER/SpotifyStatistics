@@ -1,3 +1,7 @@
+Данный проект в разработке.
+
+Используется React/Redux. В будущем - система, позволяющая визуализировать статистику личного аккаунта на Спотифай. Можно посмотреть топ личных треков за год/полгода/4 недели, в таких же диапазонах можно узнать топ исполнителей.
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
