@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/SpotifyStatistics.React-Redux/static/css/main.379b0639.css",
+    "main.js": "/SpotifyStatistics.React-Redux/static/js/main.0343c2fc.js",
+    "index.html": "/SpotifyStatistics.React-Redux/index.html",
+    "main.379b0639.css.map": "/SpotifyStatistics.React-Redux/static/css/main.379b0639.css.map",
+    "main.0343c2fc.js.map": "/SpotifyStatistics.React-Redux/static/js/main.0343c2fc.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.379b0639.css",
+    "static/js/main.0343c2fc.js"
+  ]
+}
