@@ -1,4 +1,4 @@
-import {Client, TrackHandler, PlaylistHandler} from 'spotify-sdk';
+import {Client} from 'spotify-sdk';
 
 import './loginPage.css';
 
