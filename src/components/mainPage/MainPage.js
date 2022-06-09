@@ -15,7 +15,7 @@ const MainPage = () => {
         clientId: 'b8105afd9f364dd2a21eca5f4454d74f',
         secretId: '64ec8bb13c6e4b218ee266eb124834bf',
         scopes: ['user-follow-modify user-follow-read user-library-read user-top-read'],
-        redirect_uri: 'http://localhost:3000/main'
+        redirect_uri: 'https://jul1ver.github.io/SpotifyStatistics.React-Redux/main'
     };
 
     const dispatch = useDispatch();
