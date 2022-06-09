@@ -15,7 +15,7 @@ function App() {
     <Router>
       <AppHeader/>
       <Routes>
-          <Route exact path="/" element={<LoginPage/>}/>
+          <Route exact path="SpotifyStatistics.React-Redux/" element={<LoginPage/>}/>
           <Route exact path="/main" element={<MainPage/>}/>
           <Route exact path="/tracks" element={<TopTracksPage/>}/>
           <Route exact path="/atrists" element={<TopArtistsPage/>}/>
