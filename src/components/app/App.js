@@ -16,10 +16,10 @@ function App() {
       <AppHeader/>
       <Routes>
           <Route exact path="SpotifyStatistics.React-Redux/" element={<LoginPage/>}/>
-          <Route exact path="/main" element={<MainPage/>}/>
-          <Route exact path="/tracks" element={<TopTracksPage/>}/>
-          <Route exact path="/atrists" element={<TopArtistsPage/>}/>
-          <Route exact path="/genres" element={<TopGenresPage/>}/>
+          <Route exact path="SpotifyStatistics.React-Redux/main" element={<MainPage/>}/>
+          <Route exact path="SpotifyStatistics.React-Redux/tracks" element={<TopTracksPage/>}/>
+          <Route exact path="SpotifyStatistics.React-Redux/atrists" element={<TopArtistsPage/>}/>
+          <Route exact path="SpotifyStatistics.React-Redux/genres" element={<TopGenresPage/>}/>
       </Routes>
     </Router>
   );
